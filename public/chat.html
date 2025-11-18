@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mental Health Companion</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="site-title">Mental Health Chatbot</h1>
+
+  <div class="container">
+    <h1>Health Companion</h1>
+    
+    <!-- Chat Messages -->
+    <div class="chat-container">
+      <div id="chat" class="chat-messages"></div>
+      
+      <!-- Input and Thinking Area -->
+      <div class="input-container">
+        <form id="form" class="input-area">
+          <textarea id="message" placeholder="Type your message..." rows="3"></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div id="thinking" class="thinking-indicator" style="display: none;">
+          Thinking...
+        </div>
+      </div>
+    </div>
+    
+    <div class="disclaimer">
+      <p>Hello! I am a supportive chatbot — not a substitute for professional help. If you're in danger, please contact local emergency services.</p>
+    </div>
+
+    <div class="nav-links">
+      <a class="btn-link" href="index.html">← Back to Home</a>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
